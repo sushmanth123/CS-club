@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>SATHYABAMA CS CLUB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            @media only screen and (max-width:700px){
+                .main-content{
+    display:flex;
+}
+.main-content .box{
+    flex-basis:25%;
+    padding:10px 20px;
+    font-size:10px;
+}
+.main-content .box h2{
+    font-size:10px;
+    }
+
+     }       nav{
+                background:#594848;
+                width:100%;
+                overflow:auto;
+            }
+            ul{
+                margin:0;
+                padding:0;
+                list-style:none;
+            }
+            .l{
+                float:left;
+            }
+            .r{
+                float:right;
+            }
+            li a{
+                width:120px;
+                ouline:none;
+                display:block;
+                background:#594848;
+                text-decoration: none;
+                text-align: center;
+                color:white;
+            }
+            
+footer{
+    position:relative;
+    bottom:0px;
+    width:100%;
+    background:black;
+    color:white;
+}
+.main-content{
+    display:flex;
+}
+.main-content .box{
+    flex-basis:50%;
+    padding:10px 20px;
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="l"><a href="index.html">CS CLUB</a></li>
+            </ul>
+            <ul>
+                <li class="r"><a href="register.html">REGISTER</a></li>
+                <li class="r"><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    <center>
+        <form action="login.html">
+		<fieldset>
+			<legend>BASIC INFORMATION</legend>
+			<p>
+				<label for="first">REGISTRATION:</label>
+				<input type="text" id="first" name="" placeholder="REGISTER NO.">
+			</p>
+			<p>
+				<label for="FULL">FULL NAME:</label>
+				<input type="text" id="FULL" name="" placeholder="NAME)">
+			</p>
+			<p>
+				<label for="date">DOB:</label>
+				<input type="date" id="date" name="" placeholder="dob">
+			</p>
+                        <P>
+                            <label for="mail">EMAIL:</label>
+                            <input type="text" id="mail" placeholder="enter mail">
+                        </P>
+                        <P>
+                            <label for="pass">PASSWORD:</label>
+                            <input type="password" id="pass" placeholder="enter password">
+                        </P>
+		</fieldset>
+		<fieldset>
+			<legend>selction</legend>
+			<p>
+				<label for="select">select year</label>
+				<select id="select">
+					<optgroup>
+						<option>FIRST YEAR</option>
+						<option>SECOND YEAR</option>
+						<option>THIRD YEAR</option>
+					</optgroup>
+				</select>
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<legend>DEPARTMENT</legend>
+			<p>
+				<ul>
+					<li>
+				<label for="check">CSE:</label>
+				<input type="checkbox" name="radio" id="check">
+			</li>
+		</ul>
+			</p>
+			<p>
+				<ul>
+					<li>
+				<label for="check">ECE:</label>
+				<input type="checkbox" name="radio" id="check">
+			</li>
+		</ul>
+			</p>
+
+		</fieldset>
+		<fieldset>
+			<legend>quaries</legend>
+			<label for="text">textarea:</label><br>
+			<textarea id="text" rows="10" cols="10" placeholder="write your text here"></textarea>
+		</fieldset>
+            <input type="submit" value="register" class="btn btn-primary">
+        </form>
+    </center>
+	
+        
+        <footer>
+            <div class="main-content">
+                <div class="left box">
+                    <h2>president N vice-president:</h2>
+                    <div class="content">
+                        <ul>
+                            <li>ANURAG KUMAR</li>
+                            <li>DIKSHITHA BASU</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="middle box">
+                    <h2>staff co-ordinators</h2>
+                    <div class="content">
+                        <ul>
+                            <li>JHANY SHABU</li>
+                            <li>REFONNA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right box">
+                    <h2>CONTACTS:</h2>
+                    <div class="content">
+                        <p>6000422082</p>
+                        <p>7674055531</p>
+                    </div>
+                </div>
+                     
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>LOGIN PAGE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            body{
+background:#34495e;
+}
+            .box{
+width:300px;
+padding:40px;
+background:#191919;
+text-align:center;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+position:absolute;
+}
+.box input[type="text"],.box input[type="password"]{
+border:2px solid blue;
+border-radius:20px;
+text-align:center;
+background:none;
+outline:none;
+}
+.box input[type="text"]:hover,.box input[type="password"]:hover{
+width:200px;
+border-color:green;
+color:white;
+}
+h1{
+color:white;
+text-transform:uppercase;
+}
+.box input[type="submit"]{
+border:2px solid green;
+border-radius:20px;
+text-align:center;
+background:none;
+color:white;
+}
+.box input[type="submit"]:hover{
+background:green;
+}
+footer{
+    position:relative;
+    bottom:0px;
+    width:100%;
+    background:black;
+    color:white;
+}
+.main-content{
+    display:flex;
+}
+.main-content .box{
+    flex-basis:50%;
+    padding:10px 20px;
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">CS CLUB</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ol class="nav navbar-nav navbar-right">
+                        <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> register</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ol>
+                </div>
+            </div>
+        </nav>
+        <form class="box" action="success.html">
+		<h1>login</h1>
+		<input type="text" name="" placeholder="email">
+		<br><br>
+		<input type="password" name="" placeholder="password">
+		<br><br>
+		<input type="submit" name="" value="login">
+	</form>
+        <footer>
+            <div class="main-content">
+                <div class="left box">
+                    <h2>president N vice-president:</h2>
+                    <div class="content">
+                        <ul>
+                            <li>ANURAG KUMAR</li>
+                            <li>DIKSHITHA BASU</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="middle box">
+                    <h2>staff co-ordinators</h2>
+                    <div class="content">
+                        <ul>
+                            <li>JHANY SHABU</li>
+                            <li>REFONNA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right box">
+                    <h2>CONTACTS:</h2>
+                    <div class="content">
+                        <p>6000422082</p>
+                        <p>7674055531</p>
+                    </div>
+                </div>
+                     
+            </div>
+        </footer>
+
+    </body>
+</html>
